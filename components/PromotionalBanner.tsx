@@ -15,8 +15,7 @@ interface Promotion {
   };
 }
 
-const promotions: Promotion[] = [
-];
+const promotions: Promotion[] = [];
 
 export function PromotionalBanner() {
   const [isVisible, setIsVisible] = useState(false);
