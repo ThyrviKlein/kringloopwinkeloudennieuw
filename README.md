@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kringloopwinkel Oud & Nieuw - Website Revamp
 
-## Getting Started
+## Overview
+This is a plain HTML, CSS, and JavaScript implementation of the Kringloopwinkel Oud & Nieuw website. The original site was built using Next.js, but this version has been reimplemented using standard web technologies without any frameworks.
 
-First, run the development server:
+## Structure
+The website consists of three main pages:
+- `index.html` - Homepage with information about the store and opening hours
+- `about.html` - About Us page with employee information
+- `vintage-corner.html` - Page about the vintage section of the store
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Files and Directories
+- `/css/` - Contains all stylesheets
+  - `reset.css` - Normalizes browser styles
+  - `styles.css` - Main styles for the website
+  - `about.css` - Styles specific to the About page
+  - `vintage.css` - Styles specific to the Vintage Corner page
+- `/js/` - Contains all JavaScript files
+  - `main.js` - Main JavaScript for shared functionality
+  - `about.js` - JavaScript specific to the About page
+- `/` - Root contains HTML files and this README
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- Responsive design that works on mobile, tablet, and desktop
+- Dynamic content generation for business hours and employee information
+- Navigation with active page highlighting
+- Back to top button that appears after scrolling
+- Shared header and footer across all pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Run
+Simply open any of the HTML files in a web browser. No build process is required as this is pure HTML, CSS, and JavaScript.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dependencies
+- None! This project uses only vanilla HTML, CSS, and JavaScript without any external libraries or frameworks.
+- The only external resource is Google Fonts for the Roboto font family.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+- The site uses CSS variables for consistent theming
+- The JavaScript is organized to be modular and maintainable
+- All content is in Dutch, as per the original website 
